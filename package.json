@@ -1,0 +1,31 @@
+{
+  "name": "akshayvankipuram.github.io",
+  "version": "1.0.0",
+  "description": "Akshay Vankipuram Static Personal Webpage",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AkshayVankipuram/AkshayVankipuram.github.io.git"
+  },
+  "author": "Akshay Vankipuram",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AkshayVankipuram/AkshayVankipuram.github.io/issues"
+  },
+  "homepage": "https://github.com/AkshayVankipuram/AkshayVankipuram.github.io#readme",
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^15.5.1",
+    "prettier": "3.5.3",
+    "vite": "^6.3.4"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  },
+  "dependencies": {
+    "three": "^0.176.0"
+  }
+}
