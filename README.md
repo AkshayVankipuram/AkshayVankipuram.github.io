@@ -1,3 +1,3 @@
 ## Akshay Vankipuram
 
-Personal Static Webpageg
+Personal Static Webpage
